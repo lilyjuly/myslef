@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1 {
+    text-align: center;
+    border: 2px solid rgb(79, 79, 242);
+    background-color: rgb(0, 0, 0);
+    color: mediumturquoise;
+}
+.R {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background-color: rgb(233, 18, 18);
+    color: aquamarine;
+    overflow: auto;
+}
+img {
+    width: 35%;
+    float: left;
+}
+B {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.B h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.btn {
+    color: aqua;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 1px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    background: greenyellow;
+    border: 2px solid burlywood;
+}
+.btn:hover {
+    background: transparent;
+    border-color: blueviolet;
+    color: brown;
+}
+a {
+    text-decoration: none;
+}
